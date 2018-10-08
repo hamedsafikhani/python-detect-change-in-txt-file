@@ -4,8 +4,7 @@
 file = open('file1.txt','r').readlines()
 
 
-for i in range(0,len(file)):
-    i
+i = len(file) - 1
 print(file[i])
 
 
